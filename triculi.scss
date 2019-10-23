@@ -1,0 +1,18 @@
+/*\
+ *
+ * triculi v2.0.0 | MIT Licence | github.com/drjorgepolanco
+ *
+ * Created on: 	09/19/2017
+ * Last Updated:
+ * 				08/12/2018 - change base/typography to use Fluid Type from css-tricks.com/snippets/css/fluid-typography/
+ *				09/18/2018 - add random mixins: reset_css and reset_align
+ * 				01/01/2019 - remove nested .row, .collapse, padding from .cols, media queries from p, li
+ * 				10/22/2019 - add device 'desktop-wide' for 1680px, replace 'classes/container' with 'classes/visibility'
+ *
+\*/
+
+
+@import 'mixins/init';
+@import 'base/init';
+@import 'classes/init';
+@import 'devices/init';
